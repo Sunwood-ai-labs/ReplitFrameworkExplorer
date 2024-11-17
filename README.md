@@ -1,4 +1,4 @@
-<img src="/static/header.svg" alt="Replit スタック設定ガイド" class="header-svg">
+<img src="/static/header2.svg" alt="Replit スタック設定ガイド" class="header-svg">
 
 <div align="center">
 
