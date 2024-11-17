@@ -1,58 +1,82 @@
-# Replit Stack Configurations Guide
+# Replit スタック設定ガイド
 
-Welcome to the comprehensive guide for Replit's supported stack configurations. This documentation provides detailed information about the available tech stacks, their structures, and how to get started with each one.
+Replitでサポートされているスタック設定の総合ガイドへようこそ。このドキュメントでは、利用可能な技術スタック、その構造、および各スタックの使い方について詳しく説明します。
 
-## Available Stacks
+```mermaid
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#6366f1',
+    'primaryTextColor': '#fff',
+    'primaryBorderColor': '#4f46e5',
+    'lineColor': '#64748b',
+    'secondaryColor': '#f1f5f9',
+    'tertiaryColor': '#e2e8f0'
+  }
+}}%%
 
-- [Fullstack JavaScript (React + Express)](/stacks/fullstack-js.md)
+graph TD
+    A[Replitスタック] --> B[フルスタックJS]
+    A --> C[Flask + Vanilla JS]
+    A --> D[Streamlit]
+    B --> E[フロントエンド<br/>React]
+    B --> F[バックエンド<br/>Express]
+    C --> G[バックエンド<br/>Flask]
+    C --> H[フロントエンド<br/>Vanilla JS]
+    D --> I[Pythonアプリケーション]
+```
+
+## 利用可能なスタック
+
+- [フルスタックJavaScript (React + Express)](/stacks/fullstack-js.md)
 - [Flask + Vanilla JavaScript](/stacks/flask-vanilla.md)
 - [Streamlit](/stacks/streamlit.md)
 
-## Quick Start
+## クイックスタート
 
-Each stack is optimized for different use cases:
+各スタックは異なるユースケースに最適化されています：
 
-- **Fullstack JavaScript**: Modern web applications with separate frontend and backend
-- **Flask + Vanilla JS**: Lightweight web applications with server-side rendering
-- **Streamlit**: Data-focused applications and dashboards
+- **フルスタックJavaScript**: フロントエンドとバックエンドが分離された現代的なWebアプリケーション
+- **Flask + Vanilla JS**: サーバーサイドレンダリングを使用する軽量Webアプリケーション
+- **Streamlit**: データ中心のアプリケーションとダッシュボード
 
-## Port Configuration
+## ポート設定
 
-All stacks are configured to use standard ports:
-- Frontend applications: Port 5000
-- Backend services: Port 8000
+すべてのスタックは標準ポートを使用するように設定されています：
+- フロントエンドアプリケーション：ポート5000
+- バックエンドサービス：ポート8000
 
-## Common Features
+## 共通機能
 
-All stack configurations include:
+すべてのスタック設定には以下が含まれます：
 
-1. **Development Server**
-   - Auto-reload on file changes
-   - Error reporting
-   - Debug mode
+1. **開発サーバー**
+   - ファイル変更時の自動リロード
+   - エラー報告
+   - デバッグモード
 
-2. **Asset Management**
-   - Static file serving
-   - Image optimization
-   - CSS/JS bundling (where applicable)
+2. **アセット管理**
+   - 静的ファイルの提供
+   - 画像の最適化
+   - CSS/JSのバンドル（該当する場合）
 
-3. **Security**
-   - CORS configuration
-   - XSS protection
-   - CSRF protection
+3. **セキュリティ**
+   - CORS設定
+   - XSS保護
+   - CSRF保護
 
-## Example Projects
+## サンプルプロジェクト
 
-Check out our example implementations:
-- [Fullstack JS Example](/examples/fullstack-js-example.md)
-- [Flask Example](/examples/flask-example.md)
-- [Streamlit Example](/examples/streamlit-example.md)
+実装例をご覧ください：
+- [フルスタックJS例](/examples/fullstack-js-example.md)
+- [Flask例](/examples/flask-example.md)
+- [Streamlit例](/examples/streamlit-example.md)
 
-## Need Help?
+## サポート
 
-For detailed documentation about each stack, click the respective links above. Each stack guide includes:
-- Complete folder structure
-- Configuration details
-- Getting started guide
-- Best practices
-- Common pitfalls
+各スタックの詳細なドキュメントについては、上記のリンクをクリックしてください。各スタックガイドには以下が含まれます：
+- 完全なフォルダ構造
+- 設定の詳細
+- 始め方ガイド
+- ベストプラクティス
+- よくある落とし穴
