@@ -1,0 +1,54 @@
+body {
+  font-family: "Kaisei Decol", serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+  color: #1f2937;
+  background-color: #ffffff;
+}
+
+.header-svg {
+  display: block;
+  margin: 0 auto 2rem;
+  max-width: 100%;
+}
+
+#content {
+  padding: 0 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #111827;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #6366f1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #f1f5f9;
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+  font-family: monospace;
+}
+
+.mermaid {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}

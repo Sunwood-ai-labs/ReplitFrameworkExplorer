@@ -1,3 +1,5 @@
+<img src="/static/header.svg" alt="Replit スタック設定ガイド" class="header-svg">
+
 # Replit スタック設定ガイド
 
 Replitでサポートされているスタック設定の総合ガイドへようこそ。このドキュメントでは、利用可能な技術スタック、その構造、および各スタックの使い方について詳しく説明します。
