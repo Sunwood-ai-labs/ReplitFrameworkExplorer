@@ -1,6 +1,6 @@
 # Flask + Vanilla JavaScript例
 
-## 基本的なTodoアプリケーション
+## 💻 基本的なTodoアプリケーション
 
 ### バックエンド（Flask）
 

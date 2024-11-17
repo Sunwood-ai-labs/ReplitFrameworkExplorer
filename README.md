@@ -28,13 +28,13 @@ graph TD
     D --> I[Pythonアプリケーション]
 ```
 
-## 利用可能なスタック
+## 🚀 利用可能なスタック
 
 - [フルスタックJavaScript (React + Express)](/stacks/fullstack-js.md)
 - [Flask + Vanilla JavaScript](/stacks/flask-vanilla.md)
 - [Streamlit](/stacks/streamlit.md)
 
-## クイックスタート
+## ⚡ クイックスタート
 
 各スタックは異なるユースケースに最適化されています：
 
@@ -42,13 +42,13 @@ graph TD
 - **Flask + Vanilla JS**: サーバーサイドレンダリングを使用する軽量Webアプリケーション
 - **Streamlit**: データ中心のアプリケーションとダッシュボード
 
-## ポート設定
+## 🔌 ポート設定
 
 すべてのスタックは標準ポートを使用するように設定されています：
 - フロントエンドアプリケーション：ポート5000
 - バックエンドサービス：ポート8000
 
-## 共通機能
+## 🛠️ 共通機能
 
 すべてのスタック設定には以下が含まれます：
 
@@ -67,14 +67,14 @@ graph TD
    - XSS保護
    - CSRF保護
 
-## サンプルプロジェクト
+## 💡 サンプルプロジェクト
 
 実装例をご覧ください：
 - [フルスタックJS例](/examples/fullstack-js-example.md)
 - [Flask例](/examples/flask-example.md)
 - [Streamlit例](/examples/streamlit-example.md)
 
-## サポート
+## 🤝 サポート
 
 各スタックの詳細なドキュメントについては、上記のリンクをクリックしてください。各スタックガイドには以下が含まれます：
 - 完全なフォルダ構造
